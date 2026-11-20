@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  background-color: #556a65;
+  color: #102a1f;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #131313;
+  margin-bottom: 8px;
+}
+
+h2 {
+  color: #2c52c2;
+  margin-top: 28px;
+}
+
+h3 {
+    margin-top: 28px;
+    color:#102a1f 
+}
+
+h4 {
+    margin-bottom: 18px;
+    color:brown 
+}
+
+a {
+  color: #d11bb9;
+}
+
+.resource-card {
+  max-width: 720px;
+  margin: 45px auto;
+  padding: 24px;
+  background-color: #67b382;
+  border: 5px solid #bbf7d0;
+  border-radius: 16px;
+}
+
+.summary {
+  color: #37685a;
+  font-size: 18px;
+}
+
+img {
+  border: 10px solid #101010;
+  border-radius: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td {
+  border: 5px solid #090909;
+  padding: 6px 12px;
+}
+
+th {
+  border: 5px solid #0b0b0b;
+  padding: 6px 12px;
+  background-color: #d1fae5;
+}

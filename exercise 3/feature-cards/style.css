@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+  background-color: rgb(107, 10, 114);
+  color: #111827;
+  line-height: 1.5;
+
+  h2 {
+  color: white;
+}
+
+.material-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 18px;
+}
+
+.material-shelf p {
+  color: #4b5563;
+}
+
+.material-card h3 {
+  margin-top: 0;
+  color: rgb(23, 22, 22);
+}
+.quick-nav {
+  padding: 20px;
+  background-color:rgb(0, 0, 0);
+}
+
+.quick-nav > a {
+  margin-right: 16px;
+  color: #eff1f5;
+  font-weight: 700;
+  text-decoration: none;
+}
+.intro-panel,
+.material-shelf,
+.downloads,
+.page-footer {
+  max-width: 1000px;
+  margin: 32px auto;
+  padding: 0 24px;
+}
+
+.intro-panel {
+  padding-top: 48px;
+}
+
+.intro-panel> h1 {color:black
+}
+.kicker {
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.material-shelf {
+  background-color: #b948a6;
+  padding: 32px;
+  border-radius: 24px;
+}
+
+.shelf-intro {
+  max-width: 620px;
+}
+
+.material-list {
+  margin-top: 24px;
+}
+
+.material-card {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #dbeafe;
+  border-radius: 18px;
+  margin-top: 28px;
+}
+.lesson-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 14px;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.material-shelf .lesson-link {
+  background-color: #7d2b76;
+  margin-bottom: 30px;
+}
+
+.lesson-link:hover,
+.lesson-link:focus {
+  background-color: #5974a9;
+  outline: 3px solid #101011;
+  outline-offset: 3px;
+}
+a {
+  color: #426aa9;
+  background-color: transparent;
+}
+.material-card {
+  border: 1px solid #93c5fd;
+}
+ 
+
+
+}
