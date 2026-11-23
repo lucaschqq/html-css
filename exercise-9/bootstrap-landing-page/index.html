@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap landing page</title>
+    <link rel="stylesheet" href="vendor/bootstrap-5.3.9/css/bootstrap.min.css">
+    <link rel="stylesheet" href="custom.css">
+    <script defer src="vendor/bootstrap-5.3.9/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <header id="home">
+      <nav>
+        <div>
+          <a href="#home">Neighborhood Studio</a>
+          <button type="button" aria-label="Toggle navigation">
+            <span>Menu</span>
+          </button>
+          <div id="mainMenu">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section" aria-labelledby="page-title">
+        <div>
+          <div>
+            <div>
+              <p class="eyebrow">Local creative support</p>
+              <h1 id="page-title">A simple page for a small studio.</h1>
+              <p>
+                Use Bootstrap classes to make this page responsive, readable,
+                and easier to scan.
+              </p>
+              <a href="#contact">Book a session</a>
+            </div>
+
+            <div>
+              <div class="info-panel">
+                <p>What the page should show</p>
+                <ul>
+                  <li>responsive navbar</li>
+                  <li>hero layout</li>
+                  <li>three service cards</li>
+                  <li>contact form</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services-section" aria-labelledby="services-title">
+        <div>
+          <div>
+            <p class="eyebrow">Services</p>
+            <h2 id="services-title">Choose what Bootstrap should handle.</h2>
+            <p>
+              These three items should become responsive cards. Use Bootstrap
+              for the repeated layout and card structure.
+            </p>
+          </div>
+
+          <div>
+            <article class="service-card">
+              <h3>Planning</h3>
+              <p>Turn an idea into a short page outline.</p>
+            </article>
+
+            <article class="service-card">
+              <h3>Design review</h3>
+              <p>Check spacing, typography, and visual hierarchy.</p>
+            </article>
+
+            <article class="service-card">
+              <h3>Launch check</h3>
+              <p>Test the page at mobile and desktop widths.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section" aria-labelledby="contact-title">
+        <div>
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title">Send a message.</h2>
+            <form>
+              <div>
+                <div>
+                  <label for="name">Name</label>
+                  <input id="name" type="text">
+                </div>
+
+                <div>
+                  <label for="email">Email</label>
+                  <input id="email" type="email">
+                </div>
+
+                <div>
+                  <label for="message">Message</label>
+                  <textarea id="message" rows="4"></textarea>
+                </div>
+
+                <div>
+                  <button type="submit">Send message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <p>Neighborhood Studio</p>
+      </div>
+    </footer>
+  </body>
+</html>
