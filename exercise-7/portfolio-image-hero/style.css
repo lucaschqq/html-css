@@ -43,13 +43,12 @@ p {
 }
 
 .primary-button {
-    color:beige;
-    background-color: violet;}
+   color:violet;
+    background-color: rgb(0, 0, 0);}
 
 .secondary-button {
-    color:violet;
-    background-color: beige;
-}
+  color:rgb(255, 255, 255);
+    background-color: rgb(223, 47, 223);}
 
 .primary-button:hover,
 .primary-button:focus {
