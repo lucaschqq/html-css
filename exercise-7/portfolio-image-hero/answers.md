@@ -1,10 +1,10 @@
 # Portfolio image hero: my answers
 
 ## 1. Which image goes in the HTML, and why?
-     The image workshop-desk.png goes in my HTML because it requires an alt
+     The image workshop-desk.png goes in my HTML because it requires an alt and is the main content page.
 
 ## 2. Which image goes in the CSS, and why?
-      workshop-background.png goes in the CSS because it does not require an alt
+      workshop-background.png goes in the CSS because it does not require an alt and is for decorative purposes.
 
 ## 3. Which CSS property stops the content image from stretching?
       object-fit:cover
